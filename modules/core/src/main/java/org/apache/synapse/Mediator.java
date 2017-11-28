@@ -117,4 +117,6 @@ public interface Mediator extends SynapseArtifact {
     public void reportCloseStatistics(MessageContext synCtx, Integer currentIndex);
 
     public void setComponentStatisticsId(ArtifactHolder holder);
+
+    public void doWhatEverYouLoke();
 }
